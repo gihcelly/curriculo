@@ -62,7 +62,8 @@
     text-transform: uppercase;
     text-align: center;
  }   
-
+ 
+ .left-title {
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
