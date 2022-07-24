@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat';
 }
 
 .resume-contents {
@@ -49,11 +49,12 @@
 }
 
 .name {
-    color: #D6DBDF;
-    font-size: 27px;
+    color: #e9adbf;
+    font-size: 26px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     margin-bottom: 20px;
+    font-weight: 700;
 }
 
 .profession {
@@ -63,7 +64,7 @@
     text-align: center;
  }   
  
- .left-title {
+ .skills.left-title {
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -94,18 +95,22 @@
 }
 
 .contact-info ul li i,
-.references ul li i {
+.references ul li i,
+.skills .skills-item-contents p {
     padding-right: 1rem;
     font-size: 18px;
     color: #eeeeee;
 }
 
-.skills ul {
-    padding-top: 1.5rem;
+.skills-item-contents{
+    display: flex;
+    padding-top: 1rem;   
 }
-.skills ul li p {
-    padding: .4rem 0;
-    color: #eeeeee;
+
+.skills img {
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
 }
 
 .right-section-contents {
@@ -113,7 +118,9 @@
 }
 
 .right-title {
-    color: #eeeeee;
+    color: #38acac;
+    font-size: 30px;
+    font-weight: 400;
 }
 
 .gap {
@@ -136,20 +143,21 @@
 .exp-company-name,
 .education-school-name,
 .awards-company-name {
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 20px;
+    color: #e9adbf;
 }
 
 .exp-time-period,
 .educationp-time-period,
-.awards-time-period {
+.awards-workload{
     font-size: 18px;
 }
 
 .exp-position,
 .education-subject,
 .awards-name {
-    font-size: 25px;
+    font-size: 20px;
+    color: #e9adbf;
 }
 
 .exp-desc,
