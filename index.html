@@ -10,7 +10,15 @@
     <!--import css-->
     <link rel="stylesheet" href="style.css">
 
+    <!--icons-->
     <script src="https://kit.fontawesome.com/0b7e3ecd54.js" crossorigin="anonymous"></script>
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;0,900;1,500&display=swap"
+        rel="stylesheet">
 
 </head>
 
@@ -35,11 +43,25 @@
                 </div>
                 <div class="skills">
                     <p class="left-title">Skills</p>
-                    <ul>
-                        <li>
-                            <p>Html, css, git e github, javascript, typescript</p>
-                        </li>
-                    </ul>
+                    <div class="skills-item-contents"><img src="/img/html.png" alt="." class="profile-image">
+                        <p>HTML</p>
+                    </div>
+                    <div class="skills-item-contents"><img src="/img/CSS.png" alt="." class="profile-image">
+                        <p>CSS</p>
+                    </div>
+                    <div class="skills-item-contents"><img src="/img/git.png" alt="." class="profile-image">
+                        <p>Git</p>
+                    </div>
+                    <div class="skills-item-contents">
+                        <img src="/img/javascript.png" alt="." class="profile-image">
+                        <p>Javascript</p>
+                    </div>
+                    <div class="skills-item-contents"><img src="/img/typescript.png" alt="." class="profile-image">
+                        <p>Typescript</p>
+                    </div>
+                    <div class="skills-item-contents"><img src="/img/reactn.png" alt="." class="profile-image">
+                        <p>React native</p>
+                    </div>
                 </div>
             </section>
         </section>
@@ -48,89 +70,132 @@
                 <section class="about gap">
                     <div class="right-title">Sobre mim</div>
                     <p class="about-me-contents">
-                        Olá, sou Gicelly <br>
-                        <br> Um pouco mais sobre o que faço
-                        <br> Quais são minhas competências
+                    
+                        <br> Olá, 
+                        <br> sou estudante de Análise e Desenvolvimento de Sistemas. Estou em fase de transição de carreira e estou buscando me qualificar na área de TI, a exemplo; também estudo através de plataformas de cursos online. 
+                        
                     </p>
                 </section>
+                <!-- começo experiencia -->
+                <section class="experience gap">
+                    <div class="right-title">Experiência</div>
+                    <div class="experience-contents">
+                        <div class="exp-left">
+                            <p class="exp-company-name">Empresa 01</p>
+                            <p class="education-time-period">2021 - Present</p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position">Senior Software Engineer</p>
+                            <p class="exp-desc">
+                                Descreva aqui quais foram as principais atividades
+                            </p>
+                        </div>
+                    </div>
+                    <div class="experience-contents">
+                        <div class="exp-left">
+                            <p class="exp-company-name">Empresa 02</p>
+                            <p class="education-time-period">2018 - 2021</p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position">Software Engineer</p>
+                            <p class="exp-desc">
+                                Descreva aqui quais foram as principais atividades
+                            </p>
+                        </div>
+                    </div>
+                    <div class="experience-contents">
+                        <div class="exp-left">
+                            <p class="exp-company-name">Empresa 03</p>
+                        <p class = "educationp-time-period">2017 - 2018</p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position">Software Engineer</p>
+                            <p class="exp-desc">
+                                Descreva aqui quais foram as principais atividades
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- fim experiencia -->
+                <!-- formação acadêmica -->
+                <section class="education gap">
+                    <div class="right-title">Formação acadêmica</div>
+                    <div class="education-contents">
+                        <div class="education-left">
+                            <p class="education-school-name">Uninassau</p>
+                            <p class="educationp-time-period">2022 - Present</p>
+                        </div>
+                        <div class="education-right">
+                            <p class="education-subject">ADS</p>
+                            <p class="education-desc">Grauação em Análise e desenvolvimento de Sistemas </p>
+                        </div>
+                    </div>
+                    <div class="education-contents">
+                        <div class="education-left">
+                            <p class="education-school-name">UFPE</p>
+                            <p class="educationp-time-period">2018 - Trancado</p>
+                        </div>
+                        <div class="education-right">
+                            <p class="education-subject">Engenharia civil</p>
+                            <p class="education-desc">Graduação em engenharia civil </p>
+                        </div>
+                    </div>
+                    <div class="education-contents">
+                        <div class="education-left">
+                            <p class="education-school-name">IFPE</p>
+                            <p class="educationp-time-period">2011 - 2013</p>
+                        </div>
+                        <div class="education-right">
+                            <p class="education-subject">Edificações</p>
+                            <p class="education-desc">Curso técnico em edificações </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- fim da formação acadêmica -->
+                <!-- cursos -->
+                <section class="awards gap">
+                    <div class="right-title">Cursos</div>
+                    <div class="awards-contents">
+                        <div class="awards-left">
+                            <p class="awards-company-name">Santander Bootcamp Fullstack Developer</p>
+                            <p class = "educationp-time-period">Carga hóraria: 120h (em andamento)</p>
+                        </div>
+                        <div class="awards-right">
+                            <p class="awards-name">Digital inovation one</p>
+                            <p class="awards-desc">
+                                Conteúdo: HTML, CSS, Javascript, Angular, JAVA, Spring boot framework
+                            </p>
+                        </div>
+                    </div>
+                    <div class="awards-contents">
+                        <div class="awards-left">
+                            <p class="awards-company-name">bootcamp DEcola tech 3ª edição - Avanade</p>
+                            <p class = "awards-workload">Carga horária: 61h</p>
+                        </div>
+                        <div class="awards-right">
+                            <p class="awards-name">Digital inovation one</p>
+                            <p class="awards-desc">
+                                HTML, CSS, Javascript e React Native
+                            </p>
+                        </div>
+                    </div>
+                    <div class="awards-contents">
+                        <div class="awards-left">
+                            <p class="awards-company-name">Hiring Coders #3 - Trilha de Formação em Full Stack</p>
+                            <p class = "awards-workload">Carga horária: 120h</p>
+                        </div>
+                        <div class="awards-right">
+                            <p class="awards-name">Gama academy</p>
+                            <p class="awards-desc">
+                                HTML, CSS, Javascript, React.js e Node.js
+                            </p>
+                            <p class = "awards-workload">Carga horária: 120h</p>
+
+                        </div>
+                    </div>
+                </section>
+                <!-- fim cursos -->
             </div>
-            
-            <!-- começo experiencia -->
-            <section class="experience gap">
-                <div class="right-title">Experiência</div>
-                <div class="experience-contents">
-                    <div class="exp-left">
-                        <p class="exp-company-name">Empresa 01</p>
-                        <p class="exp-time-period">2021-Present</p>
-                    </div>
-                    <div class="exp-right">
-                        <p class="exp-position">Senior Software Engineer</p>
-                        <p class="exp-desc">
-                            Descreva aqui quais foram as principais atividades
-                        </p>
-                    </div>
-                </div>
-                <div class="experience-contents">
-                    <div class="exp-left">
-                        <p class="exp-company-name">Empresa 02</p>
-                        <p class="exp-time-period">2018-2021</p>
-                    </div>
-                    <div class="exp-right">
-                        <p class="exp-position">Software Engineer</p>
-                        <p class="exp-desc">
-                            Descreva aqui quais foram as principais atividades
-                        </p>
-                    </div>
-                </div>
-                <div class="experience-contents">
-                    <div class="exp-left">
-                        <p class="exp-company-name">Empresa 03</p>
-                        <p class="exp-time-period">2017-2018</p>
-                    </div>
-                    <div class="exp-right">
-                        <p class="exp-position">Software Engineer</p>
-                        <p class="exp-desc">
-                            Descreva aqui quais foram as principais atividades
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <!-- fim experiencia -->
-            <section class="education gap">
-                <div class="right-title">Formação acadêmica</div>
-                <div class="education-contents">
-                    <div class="education-left">
-                        <p class="education-school-name">Uninassau</p>
-                        <p class="education-time-period">2022~Present</p>
-                    </div>
-                    <div class="education-right">
-                        <p class="education-subjec">ADS</p>
-                        <p class="education-desc">Grauação em Análise e desenvolvimento de Sistemas </p>
-                    </div>
-                </div>
-                <div class="education-contents">
-                    <div class="education-left">
-                        <p class="education-school-name">UFPE</p>
-                        <p class="education-time-period">2018~Trancado</p>
-                    </div>
-                    <div class="education-right">
-                        <p class="education-subjec">Engenharia civil</p>
-                        <p class="education-desc">Graduação em engenharia civil </p>
-                    </div>
-                </div>
-                <div class="education-contents">
-                    <div class="education-left">
-                        <p class="education-school-name">IFPE</p>
-                        <p class="education-time-period">2011~2013</p>
-                    </div>
-                    <div class="education-right">
-                        <p class="education-subjec">Edificações</p>
-                        <p class="education-desc">Curso técnico em edificações </p>
-                    </div>
-                </div>
-                
-            </section>
-            
         </section>
     </main>
 </body>
